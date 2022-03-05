@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+table {
+  border-collapse: collapse;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+form label {
+	margin-left: 1em;
+}
+
+form input[type=text], select, textarea, input[type=submit], input[type=reset]{
+	font-size: 1em;
+}
+
+@media screen and (max-width: 600px) {
+	table {
+		border-collapse: collapse;
+		background: rgba(255, 255, 255, 0.7);
+		width: 100%;
+	  }
+	  
+	  table, th, td {
+		border: 1px solid black;
+		width: 100%;
+	  }
+	  
+	  form label {
+		  margin-left: 1em;
+		  width: 100%;
+	  }
+	  
+	  form input[type=text], select, textarea, input[type=submit], input[type=reset]{
+		  font-size: smaller;
+	  }
+
+	  iframe {
+		  width: 100%;
+	  }
+
+}
